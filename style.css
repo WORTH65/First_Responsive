@@ -9,6 +9,28 @@
 	.footer-links {
 		max-width: 500px !important;
 	}
+
+	/* Now displaying the menu */
+	#menu-icon {
+		display: inline-block !important;
+		color: white;
+		font-size: 25px;
+		position: absolute;
+		right: 15px;
+	}
+	nav {
+		display: none;
+	}
+	#menu {
+		width: 50%;
+		margin-top: 40px;
+		border: 1px solid white;
+		border-radius: 2px;
+		padding-right: 20px;
+	}
+	#menu ul li {
+		display: block;
+	}
 }
 @media screen and (max-width: 818px) {
 	.blurb h3 {
