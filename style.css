@@ -1,0 +1,257 @@
+/* Media Queries */
+@media screen and (max-width: 1140px) {
+	.container {
+		margin-left: 16px !important;
+		margin-right: 16px !important;
+	}
+}
+@media screen and (max-width: 740px) {
+	.footer-links {
+		max-width: 500px !important;
+	}
+}
+@media screen and (max-width: 818px) {
+	.blurb h3 {
+		font-size: 22px !important;
+	}
+}
+@media screen and (max-width: 880px) {
+	.blurb {
+		width: 46.66% !important;
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.blurb {
+		width: 90% !important;
+		margin-bottom: 20px;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+}
+@media screen and (max-width: 669px) {
+	#content h1 {
+		font-size: 35px !important;
+	}
+}
+@media screen and (max-width: 450px) {
+	#content h1 {
+		font-size: 25px !important;
+	}
+}
+@media screen and (max-width: 315px) {
+	.big-button {
+		font-size: 15px !important;
+	}
+}
+@media screen and (max-width: 324px) {
+	input[type="text"], input[type="email"], textarea {
+		font-size: 14px !important;
+	}
+}
+@media screen and (max-width: 340px) {
+	form .big-button {
+		padding: 20px 70px;
+	}
+}
+
+/* Entire page */
+body, html {
+	margin: 0;
+	font-family: 'Titillium Web', sans-serif;
+}
+ul {
+	list-style-type: none;
+}
+.container {
+	max-width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+a {
+	text-decoration: none;
+}
+.big-button {
+	padding: 20px 80px;
+	color: white;
+	border-radius: 2px;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+/* Homepage and header */
+#home {
+	background-color: #87509c;
+	min-height: 595px;
+}
+header {
+	padding-top: 45px;
+}
+header a {
+	color: white;
+}
+header a:hover {
+	text-decoration: underline;
+}
+nav {
+	float: right;
+}
+nav ul li {
+	display: inline-block;
+	padding: 5px 15px;
+	border-radius: 4px;
+	text-transform: uppercase;
+}
+nav ul li.active {
+	background-color: #643a79;
+}
+/* Homepage header */
+#content {
+	margin-top: 140px;
+	text-align: center;
+}
+#content h1 {
+	color: white;
+	font-size: 42px;
+	font-weight: bold;
+	margin-bottom: 60px;
+}
+#content a {
+	background-color: #eb7d4b;
+}
+
+/* Services */
+#services {
+	background-color: #17c2a4;
+	min-height: 745px;
+	color: white;
+}
+.title-box {
+	text-align: center;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.title-box h2 {
+	margin-top: 0;
+	padding-top: 120px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: bold;
+}
+.title-box .line {
+	width: 85px;
+	height: 4px;
+	background-color: rgba(0, 0, 0, 0.15);
+	margin-left: auto;
+	margin-right: auto;	
+}
+.title-box {
+	font-size: 18px;
+}
+.blurb-row {
+	margin-top: 80px;
+}
+.blurb {
+	width: 23.33%;
+	text-align: center;
+	display: inline-table;
+}
+.blurb h3 {
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 60px;
+}
+.blurb p {
+	font-size: 16px;
+	max-width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Contact */
+#contact {
+	background-color: #3c5499;
+	min-height: 820px;
+	color: white;
+}
+#contact-form {
+	max-width: 870px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.form-row {
+	display: flex;
+}
+input[type="text"], input[type="email"], textarea {
+	background-color: #273a71;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	font-size: 18px;
+	margin: 14px;
+	padding-left: 16px;
+}
+input[type="text"]::placeholder, input[type="email"]::placeholder, textarea::placeholder {
+	color: white;
+}
+input[type="text"], input[type="email"] {
+	width: 50%;
+	height: 56px;
+}
+textarea {
+	width: 100%;
+	height: 200px;
+	padding-top: 24px;
+	resize: none;
+	font-family: 'Titillium Web', sans-serif;
+}
+form .big-button {
+	background-color: #30bae7;
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer {
+	background-color: #344b8e;
+	border-top: 1px solid #30bae7;
+}
+.footer-links	 {
+	max-width: 945px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer-links ul {
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+}
+.footer-links ul li {
+	display: inline-block;
+	padding: 10px 20px;
+	color: white;
+}
+.footer-links ul a {
+	color: white;
+}
+.top {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom: 10px;
+	color: white;
+}
+.top button {
+	background-color: #30bae7;
+	border: none;
+	color: white;
+	border-radius: 4px;
+	padding: 4px 8px;
+}
+.top button:hover {
+	cursor: pointer;
+	padding: 6px 10px;
+}
